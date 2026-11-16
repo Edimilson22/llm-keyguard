@@ -1,0 +1,7 @@
+- id: llm-keyguard
+  name: llm-keyguard (AI & MCP Secret Guard)
+  description: Blocks leaked LLM/AI API keys, .env files, and hardcoded MCP config credentials before commit.
+  entry: llm-keyguard staged
+  language: python
+  pass_filenames: false
+  always_run: true

@@ -1,0 +1,59 @@
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "llm-keyguard"
+version = "0.2.0"
+description = "Zero-dependency secret scanner, MCP config auditor, and Git pre-commit guard for LLM & AI API keys."
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.9"
+keywords = [
+    "security",
+    "secrets",
+    "pre-commit",
+    "llm",
+    "openai",
+    "anthropic",
+    "mcp",
+    "api-keys",
+    "sarif",
+    "devsecops",
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Security",
+    "Topic :: Software Development :: Quality Assurance",
+    "Topic :: Software Development :: Version Control :: Git",
+    "Typing :: Typed",
+]
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/Edimilson22/llm-keyguard"
+Repository = "https://github.com/Edimilson22/llm-keyguard"
+Issues = "https://github.com/Edimilson22/llm-keyguard/issues"
+Changelog = "https://github.com/Edimilson22/llm-keyguard/blob/main/CHANGELOG.md"
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0", "build>=1.0", "twine>=5.0"]
+
+[project.scripts]
+llm-keyguard = "llm_keyguard.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+llm_keyguard = ["py.typed"]

@@ -1,6 +1,6 @@
 # llm-keyguard
 
-[![PyPI version](https://img.shields.io/pypi/v/llm-keyguard.svg)](https://pypi.org/project/llm-keyguard/) [![PyPI Downloads](https://img.shields.io/pypi/dm/llm-keyguard.svg)](https://pypi.org/project/llm-keyguard/) [![CI](https://github.com/Edimilson22/llm-keyguard/actions/workflows/ci.yml/badge.svg)](https://github.com/Edimilson22/llm-keyguard/actions/workflows/ci.yml) [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![PyPI version](https://img.shields.io/pypi/v/llm-keyguard.svg)](https://pypi.org/project/llm-keyguard/) [![Python Versions](https://img.shields.io/pypi/pyversions/llm-keyguard.svg)](https://pypi.org/project/llm-keyguard/) [![CI](https://github.com/Edimilson22/llm-keyguard/actions/workflows/ci.yml/badge.svg)](https://github.com/Edimilson22/llm-keyguard/actions/workflows/ci.yml) [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 **Zero-dependency secret scanner, MCP configuration auditor, and `<35ms` Git pre-commit guard for LLM & AI API keys.**
 
